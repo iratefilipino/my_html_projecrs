@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Дневник тренировок</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1 class="three">Дневник тренировок</h1>
+	<a href="javascript://" onclick="addRow('myTable');return false;"class="glow-button">Новая неделя</a>
+	<a href="javascript://" onclick="saveTable()" class="glow-button">Сохранение</a>
+	<a href="javascript://" onclick="loadTable()" class="glow-button">Загрузка</a>
+	<a href="javascript://" onclick="clearTable()" class="glow-button">Очистить</a>
+	<p></p>
+	<table id="myTable" cellspacing="0" border="1">
+ 		<tbody>
+		<tr>
+			<th rowspan="3">Неделя</th>
+			<th colspan="4">Пн.</th>
+			<th colspan="4">Вт.</th>
+			<th colspan="4">Ср.</th>
+			<th colspan="4">Чт.</th>
+			<th colspan="4">Пт.</th>
+			<th colspan="4">Сб.</th>
+			<th colspan="4">Вс.</th>
+			<th rowspan="3">Расход калорий</th>
+			<th colspan="2">Вес</th>
+		</tr>
+		<tr>
+			<th rowspan="2">Упражнение</th>
+			<th colspan="3">Подход</th>
+			<th rowspan="2">Упражнение</th>
+			<th colspan="3">Подход</th>
+			<th rowspan="2">Упражнение</th>
+			<th colspan="3">Подход</th>
+			<th rowspan="2">Упражнение</th>
+			<th colspan="3">Подход</th>
+			<th rowspan="2">Упражнение</th>
+			<th colspan="3">Подход</th>
+			<th rowspan="2">Упражнение</th>
+			<th colspan="3">Подход</th>
+			<th rowspan="2">Упражнение</th>
+			<th colspan="3">Подход</th>
+			<th rowspan="2">Нач.Недели</th>
+			<th rowspan="2">Кон.Недели</th>
+		</tr>
+		<tr>
+			<th>1</th>
+			<th>2</th>
+			<th>3</th>
+			<th>1</th>
+			<th>2</th>
+			<th>3</th>
+			<th>1</th>
+			<th>2</th>
+			<th>3</th>
+			<th>1</th>
+			<th>2</th>
+			<th>3</th>
+			<th>1</th>
+			<th>2</th>
+			<th>3</th>
+			<th>1</th>
+			<th>2</th>
+			<th>3</th>
+			<th>1</th>
+			<th>2</th>
+			<th>3</th>
+		</tr>
+	</tbody>
+</table>
+	<script src="https://yastatic.net/jquery/3.3.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
